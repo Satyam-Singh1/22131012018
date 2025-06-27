@@ -7,9 +7,10 @@ import {
 } from '@mui/material';
 import UrlForm from '../Components/UrlForm';
 import UrlCard from '../Components/UrlCard';
-import { Log } from '../middleware/logMiddleware';
+import { Log } from '../../../Middleware/logMiddleware.js';
 import { generateShortcode } from '../utils/generateShortcode';
 import { isValidURL, isValidShortcode } from '../utils/validate';
+import Header from '../Components/Header.jsx';
 
 const HomePage = () => {
   const [inputs, setInputs] = useState([
@@ -100,6 +101,8 @@ const HomePage = () => {
   };
 
   return (
+    <>
+    <Header/>
     <Container sx={{ mt: 5 }}>
       <Typography variant="h4" gutterBottom>
         URL Shortener
@@ -132,6 +135,7 @@ const HomePage = () => {
         />
       ))}
     </Container>
+    </>
   );
 };
 
