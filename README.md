@@ -1,6 +1,6 @@
 # 🔗 URL Shortener Web App (Client-Side)
 
-This is a client-side **URL Shortener** web application built using **React.js** and **Material UI**, developed as part of a full-stack evaluation for **Afford Medical Technologies Pvt. Ltd.**
+This is a client-side **URL Shortener** web application built using **React.js** and **Material UI.**
 
 It allows users to:
 - Shorten long URLs with custom or auto-generated shortcodes
