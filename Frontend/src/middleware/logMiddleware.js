@@ -8,7 +8,7 @@ export async function Log(stack, level, pkg, message) {
     console.warn("Invalid log parameters:", { stack, level, pkg, message });
     return;
   }
-  
+
   try {
     const response = await fetch("http://20.244.56.144/evaluation-service/logs", {
       method: "POST",

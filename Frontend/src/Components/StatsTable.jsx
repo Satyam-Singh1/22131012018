@@ -4,7 +4,7 @@ import {
   TableRow, TableCell, TableBody, Divider, Button
 } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
-import { Log } from '../../../Middleware/logMiddleware.js';
+import { Log } from '../middleware/logMiddleware';
 
 const StatsPage = () => {
   const [urls, setUrls] = useState([]);

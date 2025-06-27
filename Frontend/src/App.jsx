@@ -3,7 +3,7 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import StatsPage from './pages/StatsPage';
 import RedirectPage from './pages/RedirectPage';
-import { Log } from '../../../Middleware/logMiddleware.js';
+import { Log } from './middleware/logMiddleware';
 
 const App = () => {
   const location = useLocation();

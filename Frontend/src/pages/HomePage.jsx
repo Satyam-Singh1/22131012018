@@ -5,9 +5,9 @@ import {
   Button,
   Box
 } from '@mui/material';
-import UrlForm from '../components/UrlForm';
-import UrlCard from '../components/UrlCard';
-import { Log } from '../../../Middleware/logMiddleware.js';
+import UrlForm from '../Components/UrlForm';
+import UrlCard from '../Components/UrlCard';
+import { Log } from '../middleware/logMiddleware';
 import { generateShortcode } from '../utils/generateShortcode';
 import { isValidURL, isValidShortcode } from '../utils/validate';
 
